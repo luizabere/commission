@@ -20,9 +20,46 @@
       background-attachment: fixed;
     "
   >
+      <nav class="navbar navbar-expand-sm sticky-top" 
+            style="background-color: rgba(255, 255, 255, 0.1); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+      <div class="container-fluid">
+
+        <img
+          src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/logo.png"
+          alt="logo"
+          style="width: 60px"
+          class="ms-5"
+        >
+
+        <ul class="navbar-nav gap-3 px-5 mx-3" style="font-size: 18px;">
+          <li class="nav-item">
+            <a class="nav-link active  text-white" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#structure">Structure</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#commision">Commission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container">
-      <div class="mt-5 px-3 py-1 text-white">
-        <h1><b>Commission</b></h1>
+      <div class="mt-5 px-3 py-1 text-center">
+        <h1 class="text-white" style="font-size: 45px"><b>Commission</b></h1>
       </div>
     </div>
 
@@ -176,12 +213,12 @@
       </div>
     </div>
 
-        <div class="container mt-5 pt-4">
-          <div class="text-center mb-4">
+        <div class="container pt-4">
+          <div class="text-center mb-5">
               <h1 class="text-white"><b>PIC HMP</b></h1>
         </div>
 
-        <div class="row g-4 px-4 mx-md-5">
+        <div class="row g-4 px-4 mt-5 mx-md-5">
             <div class="col-12 col-md-6">
                 <div class="card border-0 rounded-0 bg-white bg-opacity-10 border-white border-opacity-25 shadow-sm h-100">
                     <div class="card-header rounded-0 text-white text-center py-3">
@@ -263,5 +300,13 @@
             </div>
         </div>
     </div>
+    <footer class="text-center text-lg-start bg-light bg-opacity-10 border-white border-opacity-25 text-white mt-5">
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2026 All rights reserved. BPM FTD
+      </div>
+    </footer>
 </body>
 </html>
